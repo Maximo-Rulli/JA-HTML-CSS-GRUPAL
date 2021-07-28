@@ -1,0 +1,351 @@
+:root {
+	--font-title:'Poppins', sans-serif; /*acá documenté los fuentes y los colores, si las quieren usar pueden hacerlo como variables*/
+	--font-p: 'Work Sans', sans-serif;
+	--font-comentario: 'Oxygen', sans-serif;
+	--violet: #310A90;
+	--white: #FFFFFF;
+	--header-nav-color: rgba(8, 10, 11, 0.5);
+}
+body {
+	background: linear-gradient(135deg, #1BE7FF 0%, #6EEB83 94.27%, #69EB8A 100%, #42F870 100%);
+}
+.wrapper {
+	inline-size: 1136px; /*sirve para que el contenido no sobrepase los 1136px y quede como una especie de margen*/
+	margin: auto;
+}
+
+
+#titulo_header{
+	/* Reserva Ecológica */
+	position: static;
+	width: 328px;
+	height: 39px;
+	left: 10px;
+	top: 10px;
+
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 35px;
+	line-height: 39px;
+	/* identical to box height, or 111% */
+
+	display: flex;
+	align-items: center;
+
+	color: #FFFFFF;
+
+
+	/* Inside Auto Layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	margin-left: 75px;
+	display: inline;
+}
+
+.header{
+	display: inline;
+}
+
+/*Reserva*/
+#boton_header1{
+	/* Reserva */
+	position: static;
+	width: 71px;
+	height: 23px;
+	left: 44.5px;
+	top: 18px;
+
+	/* BUTTON */
+
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 23px;
+	/* identical to box height, or 162% */
+
+	letter-spacing: 1.25px;
+	text-transform: uppercase;
+
+	color: #FFFFFF;
+
+
+	/* Inside Auto Layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	margin: 0px 40px;
+}
+
+/*Animales*/
+#boton_header2{
+	/* animales */
+	position: static;
+	width: 80px;
+	height: 23px;
+	left: 155.5px;
+	top: 18px;
+
+	/* BUTTON */
+
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 23px;
+	/* identical to box height, or 162% */
+
+	letter-spacing: 1.25px;
+	text-transform: uppercase;
+
+	/* white */
+
+	color: #FFFFFF;
+
+
+	/* Inside Auto Layout */
+
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+	margin: 0px 40px;
+}
+
+/*Galería*/
+#boton_header3{
+	/* galería */
+	position: static;
+	width: 67px;
+	height: 23px;
+	left: 275.5px;
+	top: 18px;
+
+	/* BUTTON */
+
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 23px;
+	/* identical to box height, or 162% */
+
+	letter-spacing: 1.25px;
+	text-transform: uppercase;
+
+	/* white */
+
+	color: #FFFFFF;
+
+
+	/* Inside Auto Layout */
+
+	flex: none;
+	order: 2;
+	flex-grow: 0;
+	margin: 0px 40px;
+}
+
+#seccion_header{
+	/* sections */
+	/* Auto Layout */
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+
+	position: static;
+	width: 387px;
+	height: 59px;
+	left: 848px;
+	top: 0px;
+
+	background: rgba(8, 10, 11, 0.5);
+	border-radius: 4px;
+
+	/* Inside Auto Layout */
+
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+	margin: 0px 0px;
+	margin-left: 600px;
+	padding: 18px 0px;
+}
+
+#div_header{
+	background-image: url("imagen_header_reserva.png");
+	background-size: 2000px 143px;
+	padding-top: 42px;
+	padding-bottom: 42px;
+	margin: 0px 0px;
+}
+
+#titulo_main{
+	position: static;
+	width: 543px;
+	height: 96px;
+	left: 0px;
+	top: 0px;
+
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 60px;
+	line-height: 95px;
+	/* identical to box height, or 159% */
+
+	letter-spacing: -0.005em;
+
+	/* /primary */
+
+	color: #310A90;
+
+
+	/* Inside Auto Layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	margin: 0px 0px;
+}
+
+#introduccion_main{
+	/* Entre Puerto Madero y el Río de la Plata se encuentra la primer Área Natural Protegida de la Ciudad de Buenos Aires. A solo pocas cuadras del centro, este espacio verde de 350 hectáreas deja atrás rascacielos y torres y da paso a lagunas y bañados, bosques de alisos y cortaderales. */
+	position: static;
+	width: 628px;
+	max-inline-size: 628px;
+	height: 130px;
+	left: 0px;
+	top: 146.5px;
+
+	/* Body 1 */
+	font-family: Work Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 26px;
+	/* or 118% */
+	letter-spacing: -0.01em;
+
+	/* /primary */
+	color: #310A90;
+
+
+	/* Inside Auto Layout */
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+	margin: 16px 0px;
+
+}
+
+#imagen_ubicacion{
+	/* Rectangle 8 */
+	position: static;
+	width: 400px;
+	height: 400px;
+	left: 736px;
+	top: 0px;
+
+	background: url(mapa.jpg);
+	filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.25));
+	border-radius: 24px;
+
+	/* Inside Auto Layout */
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+	margin: 0px 0px;
+	display: inline;
+
+}
+
+#boton_oficial{
+	/* button/primary */
+
+	/* Auto Layout */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0px;
+
+	position: static;
+	width: 177px;
+	height: 49px;
+	left: 0px;
+	top: 24px;
+
+	/* /primary */
+	background: #310A90;
+	/* /primary */
+	border: 2px solid #310A90;
+	box-sizing: border-box;
+	border-radius: 4px;
+
+	/* Inside Auto Layout */
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	margin: 0px 0px;
+
+
+	/* Frame 4 */
+
+	/* Auto Layout */
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 13px 24px;
+
+	position: static;
+	width: 177px;
+	height: 49px;
+	left: 0px;
+	top: 0px;
+
+
+	/* Inside Auto Layout */
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	margin: 10px 0px;
+
+
+	/* Página oficial */
+
+	position: static;
+	width: 129px;
+	height: 23px;
+	left: 24px;
+	top: 13px;
+
+	/* BUTTON */
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 23px;
+	/* identical to box height, or 162% */
+	text-align: center;
+	letter-spacing: 1.25px;
+	text-transform: uppercase;
+
+	/* white */
+	color: #FFFFFF;
+
+
+	/* Inside Auto Layout */
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	margin: 0px 8px;
+
+}
+
